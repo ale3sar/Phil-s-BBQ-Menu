@@ -1,0 +1,4700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 152</value>
+  </data>
+  <data name="Label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>San Diego</value>
+  </data>
+  <data name="Label11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>131</value>
+  </data>
+  <data name="Label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 194</value>
+  </data>
+  <data name="Label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 67</value>
+  </data>
+  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>MESQUITE GRILLED RIBS CHICKEN, BEEF &amp; SANDWICHES</value>
+  </data>
+  <data name="Label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
+    <value>130</value>
+  </data>
+  <data name="Label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 273</value>
+  </data>
+  <data name="Label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label13.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>3750 Sports Arena Blvd.</value>
+  </data>
+  <data name="Label13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label13.Name" xml:space="preserve">
+    <value>Label13</value>
+  </data>
+  <data name="&gt;&gt;Label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label13.ZOrder" xml:space="preserve">
+    <value>129</value>
+  </data>
+  <data name="Label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 306</value>
+  </data>
+  <data name="Label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label14.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>Hours: Sun thru Thurs 11am to 10pm</value>
+  </data>
+  <data name="Label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label14.Name" xml:space="preserve">
+    <value>Label14</value>
+  </data>
+  <data name="&gt;&gt;Label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label14.ZOrder" xml:space="preserve">
+    <value>128</value>
+  </data>
+  <data name="Label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 337</value>
+  </data>
+  <data name="Label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label15.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>Fri and Sat to 11pm</value>
+  </data>
+  <data name="Label15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label15.Name" xml:space="preserve">
+    <value>Label15</value>
+  </data>
+  <data name="&gt;&gt;Label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label15.ZOrder" xml:space="preserve">
+    <value>127</value>
+  </data>
+  <data name="Label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 365</value>
+  </data>
+  <data name="Label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label16.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>Phone (619) 226-6333</value>
+  </data>
+  <data name="Label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label16.Name" xml:space="preserve">
+    <value>Label16</value>
+  </data>
+  <data name="&gt;&gt;Label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label16.ZOrder" xml:space="preserve">
+    <value>126</value>
+  </data>
+  <data name="Label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 396</value>
+  </data>
+  <data name="Label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label17.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>www.philsbbq.net</value>
+  </data>
+  <data name="Label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label17.Name" xml:space="preserve">
+    <value>Label17</value>
+  </data>
+  <data name="&gt;&gt;Label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label17.ZOrder" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="Label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 427</value>
+  </data>
+  <data name="Label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label18.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>CLOSED ON MONDAY</value>
+  </data>
+  <data name="Label18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label18.Name" xml:space="preserve">
+    <value>Label18</value>
+  </data>
+  <data name="&gt;&gt;Label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label18.ZOrder" xml:space="preserve">
+    <value>124</value>
+  </data>
+  <data name="Label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 467</value>
+  </data>
+  <data name="Label19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label19.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>Catering Services</value>
+  </data>
+  <data name="Label19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label19.Name" xml:space="preserve">
+    <value>Label19</value>
+  </data>
+  <data name="&gt;&gt;Label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label19.ZOrder" xml:space="preserve">
+    <value>123</value>
+  </data>
+  <data name="Label110.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 500</value>
+  </data>
+  <data name="Label110.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label110.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 100</value>
+  </data>
+  <data name="Label110.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Label110.Text" xml:space="preserve">
+    <value>For catering inquiries including Deliveries, On-Site Events and information about Phil’s Private Event Center</value>
+  </data>
+  <data name="Label110.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label110.Name" xml:space="preserve">
+    <value>Label110</value>
+  </data>
+  <data name="&gt;&gt;Label110.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label110.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label110.ZOrder" xml:space="preserve">
+    <value>122</value>
+  </data>
+  <data name="Label111.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label111.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 598</value>
+  </data>
+  <data name="Label111.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label111.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label111.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Label111.Text" xml:space="preserve">
+    <value>PLEASE CALL: 619-814-0050</value>
+  </data>
+  <data name="Label111.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label111.Name" xml:space="preserve">
+    <value>Label111</value>
+  </data>
+  <data name="&gt;&gt;Label111.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label111.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label111.ZOrder" xml:space="preserve">
+    <value>121</value>
+  </data>
+  <data name="Label114.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label114.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 702</value>
+  </data>
+  <data name="Label114.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label114.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label114.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Label114.Text" xml:space="preserve">
+    <value>Beef (Beefy) when ordering Ribs</value>
+  </data>
+  <data name="Label114.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label114.Name" xml:space="preserve">
+    <value>Label114</value>
+  </data>
+  <data name="&gt;&gt;Label114.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label114.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label114.ZOrder" xml:space="preserve">
+    <value>120</value>
+  </data>
+  <data name="Label113.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Italic</value>
+  </data>
+  <data name="Label113.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label113.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 671</value>
+  </data>
+  <data name="Label113.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label113.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label113.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label113.Text" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="Label113.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label113.Name" xml:space="preserve">
+    <value>Label113</value>
+  </data>
+  <data name="&gt;&gt;Label113.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label113.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label113.ZOrder" xml:space="preserve">
+    <value>119</value>
+  </data>
+  <data name="Label112.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label112.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 644</value>
+  </data>
+  <data name="Label112.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label112.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label112.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Label112.Text" xml:space="preserve">
+    <value>Please specify Pork (Baby Back)</value>
+  </data>
+  <data name="Label112.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label112.Name" xml:space="preserve">
+    <value>Label112</value>
+  </data>
+  <data name="&gt;&gt;Label112.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label112.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label112.ZOrder" xml:space="preserve">
+    <value>118</value>
+  </data>
+  <data name="Label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 10</value>
+  </data>
+  <data name="Label21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label21.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>AWARD WINNING RIBS</value>
+  </data>
+  <data name="Label21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label21.Name" xml:space="preserve">
+    <value>Label21</value>
+  </data>
+  <data name="&gt;&gt;Label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label21.ZOrder" xml:space="preserve">
+    <value>117</value>
+  </data>
+  <data name="Label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 44</value>
+  </data>
+  <data name="Label22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label22.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>Baby Back Rib Dinners</value>
+  </data>
+  <data name="Label22.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label22.Name" xml:space="preserve">
+    <value>Label22</value>
+  </data>
+  <data name="&gt;&gt;Label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label22.ZOrder" xml:space="preserve">
+    <value>116</value>
+  </data>
+  <data name="Label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 83</value>
+  </data>
+  <data name="Label23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label23.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>(includes 2 small sides or 1 large side)</value>
+  </data>
+  <data name="Label23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label23.Name" xml:space="preserve">
+    <value>Label23</value>
+  </data>
+  <data name="&gt;&gt;Label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label23.ZOrder" xml:space="preserve">
+    <value>115</value>
+  </data>
+  <data name="Label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 115</value>
+  </data>
+  <data name="Label24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label24.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>Full Rib Dinner (10 to 12 Bones)</value>
+  </data>
+  <data name="Label24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label24.Name" xml:space="preserve">
+    <value>Label24</value>
+  </data>
+  <data name="&gt;&gt;Label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label24.ZOrder" xml:space="preserve">
+    <value>114</value>
+  </data>
+  <data name="Label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 171</value>
+  </data>
+  <data name="Label26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label26.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>Quarter Rib Dinner (4 Bones)</value>
+  </data>
+  <data name="Label26.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label26.Name" xml:space="preserve">
+    <value>Label26</value>
+  </data>
+  <data name="&gt;&gt;Label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label26.ZOrder" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="Label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 142</value>
+  </data>
+  <data name="Label25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label25.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>Half Rib Dinner (6 to 7 Bones)</value>
+  </data>
+  <data name="Label25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label25.Name" xml:space="preserve">
+    <value>Label25</value>
+  </data>
+  <data name="&gt;&gt;Label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label25.ZOrder" xml:space="preserve">
+    <value>112</value>
+  </data>
+  <data name="Label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 210</value>
+  </data>
+  <data name="Label27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label27.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>Baby Back Ribs Only</value>
+  </data>
+  <data name="Label27.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label27.Name" xml:space="preserve">
+    <value>Label27</value>
+  </data>
+  <data name="&gt;&gt;Label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label27.ZOrder" xml:space="preserve">
+    <value>111</value>
+  </data>
+  <data name="Label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 240</value>
+  </data>
+  <data name="Label28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label28.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>(Ribs Only, No Sides)</value>
+  </data>
+  <data name="Label28.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label28.Name" xml:space="preserve">
+    <value>Label28</value>
+  </data>
+  <data name="&gt;&gt;Label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label28.ZOrder" xml:space="preserve">
+    <value>110</value>
+  </data>
+  <data name="Label210.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label210.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 304</value>
+  </data>
+  <data name="Label210.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label210.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label210.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Label210.Text" xml:space="preserve">
+    <value>Full Rib Only (10 to 12 Bones)</value>
+  </data>
+  <data name="Label210.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label210.Name" xml:space="preserve">
+    <value>Label210</value>
+  </data>
+  <data name="&gt;&gt;Label210.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label210.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label210.ZOrder" xml:space="preserve">
+    <value>109</value>
+  </data>
+  <data name="Label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 271</value>
+  </data>
+  <data name="Label29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label29.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>Full Rib Only (10 to 12 Bones)</value>
+  </data>
+  <data name="Label29.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label29.Name" xml:space="preserve">
+    <value>Label29</value>
+  </data>
+  <data name="&gt;&gt;Label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label29.ZOrder" xml:space="preserve">
+    <value>108</value>
+  </data>
+  <data name="Label211.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label211.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label211.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 342</value>
+  </data>
+  <data name="Label211.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label211.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label211.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Label211.Text" xml:space="preserve">
+    <value>Beefy Rib Dinners</value>
+  </data>
+  <data name="Label211.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label211.Name" xml:space="preserve">
+    <value>Label211</value>
+  </data>
+  <data name="&gt;&gt;Label211.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label211.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label211.ZOrder" xml:space="preserve">
+    <value>107</value>
+  </data>
+  <data name="Label212.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label212.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 373</value>
+  </data>
+  <data name="Label212.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label212.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label212.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Label212.Text" xml:space="preserve">
+    <value>(includes 2 small sides or 1 large side)</value>
+  </data>
+  <data name="Label212.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label212.Name" xml:space="preserve">
+    <value>Label212</value>
+  </data>
+  <data name="&gt;&gt;Label212.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label212.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label212.ZOrder" xml:space="preserve">
+    <value>106</value>
+  </data>
+  <data name="Label214.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label214.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 433</value>
+  </data>
+  <data name="Label214.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label214.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label214.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="Label214.Text" xml:space="preserve">
+    <value>Beef Rib Dinner (3 Bones)</value>
+  </data>
+  <data name="Label214.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label214.Name" xml:space="preserve">
+    <value>Label214</value>
+  </data>
+  <data name="&gt;&gt;Label214.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label214.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label214.ZOrder" xml:space="preserve">
+    <value>105</value>
+  </data>
+  <data name="Label213.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label213.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 404</value>
+  </data>
+  <data name="Label213.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label213.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label213.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Label213.Text" xml:space="preserve">
+    <value>Full Beef Rib Dinner (5 Bones)</value>
+  </data>
+  <data name="Label213.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label213.Name" xml:space="preserve">
+    <value>Label213</value>
+  </data>
+  <data name="&gt;&gt;Label213.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label213.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label213.ZOrder" xml:space="preserve">
+    <value>104</value>
+  </data>
+  <data name="Label215.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label215.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label215.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 475</value>
+  </data>
+  <data name="Label215.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label215.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label215.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Label215.Text" xml:space="preserve">
+    <value>Beefy Ribs Only</value>
+  </data>
+  <data name="Label215.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label215.Name" xml:space="preserve">
+    <value>Label215</value>
+  </data>
+  <data name="&gt;&gt;Label215.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label215.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label215.ZOrder" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Label216.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label216.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 506</value>
+  </data>
+  <data name="Label216.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label216.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label216.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Label216.Text" xml:space="preserve">
+    <value>(Ribs Only, No Sides)</value>
+  </data>
+  <data name="Label216.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label216.Name" xml:space="preserve">
+    <value>Label216</value>
+  </data>
+  <data name="&gt;&gt;Label216.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label216.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label216.ZOrder" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Label217.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label217.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 537</value>
+  </data>
+  <data name="Label217.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label217.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label217.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="Label217.Text" xml:space="preserve">
+    <value>Full Beef Rib Only (5 Bones)</value>
+  </data>
+  <data name="Label217.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label217.Name" xml:space="preserve">
+    <value>Label217</value>
+  </data>
+  <data name="&gt;&gt;Label217.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label217.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label217.ZOrder" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Label218.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label218.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 567</value>
+  </data>
+  <data name="Label218.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label218.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label218.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Label218.Text" xml:space="preserve">
+    <value>One Beef Bone Sampler </value>
+  </data>
+  <data name="Label218.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label218.Name" xml:space="preserve">
+    <value>Label218</value>
+  </data>
+  <data name="&gt;&gt;Label218.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label218.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label218.ZOrder" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Label219.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label219.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label219.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 610</value>
+  </data>
+  <data name="Label219.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label219.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label219.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Label219.Text" xml:space="preserve">
+    <value>AWARD WINNING RIBS</value>
+  </data>
+  <data name="Label219.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label219.Name" xml:space="preserve">
+    <value>Label219</value>
+  </data>
+  <data name="&gt;&gt;Label219.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label219.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label219.ZOrder" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="Label220.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label220.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 640</value>
+  </data>
+  <data name="Label220.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label220.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 50</value>
+  </data>
+  <data name="Label220.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Label220.Text" xml:space="preserve">
+    <value>Ticklers® Include: 2 Onion Rings, Slaw and Fresh Cut Fries.</value>
+  </data>
+  <data name="Label220.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label220.Name" xml:space="preserve">
+    <value>Label220</value>
+  </data>
+  <data name="&gt;&gt;Label220.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label220.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label220.ZOrder" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="Label221.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label221.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 688</value>
+  </data>
+  <data name="Label221.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label221.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label221.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="Label221.Text" xml:space="preserve">
+    <value>-no substitutions please-</value>
+  </data>
+  <data name="Label221.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label221.Name" xml:space="preserve">
+    <value>Label221</value>
+  </data>
+  <data name="&gt;&gt;Label221.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label221.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label221.ZOrder" xml:space="preserve">
+    <value>97</value>
+  </data>
+  <data name="Label224.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label224.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 779</value>
+  </data>
+  <data name="Label224.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label224.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label224.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="Label224.Text" xml:space="preserve">
+    <value>Chick Tickler®</value>
+  </data>
+  <data name="Label224.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label224.Name" xml:space="preserve">
+    <value>Label224</value>
+  </data>
+  <data name="&gt;&gt;Label224.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label224.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label224.ZOrder" xml:space="preserve">
+    <value>96</value>
+  </data>
+  <data name="Label223.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label223.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 748</value>
+  </data>
+  <data name="Label223.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label223.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label223.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="Label223.Text" xml:space="preserve">
+    <value>Beefy Rib Tickler® (1 Bone) </value>
+  </data>
+  <data name="Label223.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label223.Name" xml:space="preserve">
+    <value>Label223</value>
+  </data>
+  <data name="&gt;&gt;Label223.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label223.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label223.ZOrder" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="Label222.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label222.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 719</value>
+  </data>
+  <data name="Label222.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label222.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label222.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Label222.Text" xml:space="preserve">
+    <value>Baby Back Rib Tickler® (3 Bones) </value>
+  </data>
+  <data name="Label222.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label222.Name" xml:space="preserve">
+    <value>Label222</value>
+  </data>
+  <data name="&gt;&gt;Label222.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label222.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label222.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="Label225.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label225.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 813</value>
+  </data>
+  <data name="Label225.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label225.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label225.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="Label225.Text" xml:space="preserve">
+    <value>Chunks of white meat chicken seasoned and BBQ'd.</value>
+  </data>
+  <data name="Label225.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label225.Name" xml:space="preserve">
+    <value>Label225</value>
+  </data>
+  <data name="&gt;&gt;Label225.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label225.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label225.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="p1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 115</value>
+  </data>
+  <data name="p1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="p1.Text" xml:space="preserve">
+    <value>20.99</value>
+  </data>
+  <data name="&gt;&gt;p1.Name" xml:space="preserve">
+    <value>p1</value>
+  </data>
+  <data name="&gt;&gt;p1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p1.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="p2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 146</value>
+  </data>
+  <data name="p2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p2.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="p2.Text" xml:space="preserve">
+    <value>14.99</value>
+  </data>
+  <data name="&gt;&gt;p2.Name" xml:space="preserve">
+    <value>p2</value>
+  </data>
+  <data name="&gt;&gt;p2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p2.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="p3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 179</value>
+  </data>
+  <data name="p3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p3.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="p3.Text" xml:space="preserve">
+    <value>10.99</value>
+  </data>
+  <data name="&gt;&gt;p3.Name" xml:space="preserve">
+    <value>p3</value>
+  </data>
+  <data name="&gt;&gt;p3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p3.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="p4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 277</value>
+  </data>
+  <data name="p4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p4.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="p4.Text" xml:space="preserve">
+    <value>18.99</value>
+  </data>
+  <data name="&gt;&gt;p4.Name" xml:space="preserve">
+    <value>p4</value>
+  </data>
+  <data name="&gt;&gt;p4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p4.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="p5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 310</value>
+  </data>
+  <data name="p5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p5.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="p5.Text" xml:space="preserve">
+    <value>12.99</value>
+  </data>
+  <data name="&gt;&gt;p5.Name" xml:space="preserve">
+    <value>p5</value>
+  </data>
+  <data name="&gt;&gt;p5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p5.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="p7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 433</value>
+  </data>
+  <data name="p7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p7.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="p7.Text" xml:space="preserve">
+    <value>18.99</value>
+  </data>
+  <data name="&gt;&gt;p7.Name" xml:space="preserve">
+    <value>p7</value>
+  </data>
+  <data name="&gt;&gt;p7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p7.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="p6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 404</value>
+  </data>
+  <data name="p6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p6.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="p6.Text" xml:space="preserve">
+    <value>25.99</value>
+  </data>
+  <data name="&gt;&gt;p6.Name" xml:space="preserve">
+    <value>p6</value>
+  </data>
+  <data name="&gt;&gt;p6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p6.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="p9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 567</value>
+  </data>
+  <data name="p9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p9.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="p9.Text" xml:space="preserve">
+    <value>6.55</value>
+  </data>
+  <data name="&gt;&gt;p9.Name" xml:space="preserve">
+    <value>p9</value>
+  </data>
+  <data name="&gt;&gt;p9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p9.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="p8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 537</value>
+  </data>
+  <data name="p8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p8.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="p8.Text" xml:space="preserve">
+    <value>23.99</value>
+  </data>
+  <data name="&gt;&gt;p8.Name" xml:space="preserve">
+    <value>p8</value>
+  </data>
+  <data name="&gt;&gt;p8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p8.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="p12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 779</value>
+  </data>
+  <data name="p12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p12.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="p12.Text" xml:space="preserve">
+    <value>7.49</value>
+  </data>
+  <data name="&gt;&gt;p12.Name" xml:space="preserve">
+    <value>p12</value>
+  </data>
+  <data name="&gt;&gt;p12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p12.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="p11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 748</value>
+  </data>
+  <data name="p11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p11.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="p11.Text" xml:space="preserve">
+    <value>9.49</value>
+  </data>
+  <data name="&gt;&gt;p11.Name" xml:space="preserve">
+    <value>p11</value>
+  </data>
+  <data name="&gt;&gt;p11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p11.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="p10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 719</value>
+  </data>
+  <data name="p10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p10.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="p10.Text" xml:space="preserve">
+    <value>8.49</value>
+  </data>
+  <data name="&gt;&gt;p10.Name" xml:space="preserve">
+    <value>p10</value>
+  </data>
+  <data name="&gt;&gt;p10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p10.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="Label31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 10</value>
+  </data>
+  <data name="Label31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label31.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>Mesquite Grilled Chicken</value>
+  </data>
+  <data name="Label31.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label31.Name" xml:space="preserve">
+    <value>Label31</value>
+  </data>
+  <data name="&gt;&gt;Label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label31.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="Label32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 44</value>
+  </data>
+  <data name="Label32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label32.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>BBQ Chicken Dinners</value>
+  </data>
+  <data name="Label32.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label32.Name" xml:space="preserve">
+    <value>Label32</value>
+  </data>
+  <data name="&gt;&gt;Label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label32.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label32.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="Label33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 83</value>
+  </data>
+  <data name="Label33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label33.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>(includes 2 small sides or 1 large side)</value>
+  </data>
+  <data name="Label33.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label33.Name" xml:space="preserve">
+    <value>Label33</value>
+  </data>
+  <data name="&gt;&gt;Label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label33.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label33.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="Label34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 110</value>
+  </data>
+  <data name="Label34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label34.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>Half Chicken Dinner </value>
+  </data>
+  <data name="Label34.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label34.Name" xml:space="preserve">
+    <value>Label34</value>
+  </data>
+  <data name="&gt;&gt;Label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label34.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label34.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="Label35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 142</value>
+  </data>
+  <data name="Label35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label35.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="Label35.Text" xml:space="preserve">
+    <value>Half Chicken Dinner (All White) </value>
+  </data>
+  <data name="Label35.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label35.Name" xml:space="preserve">
+    <value>Label35</value>
+  </data>
+  <data name="&gt;&gt;Label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label35.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label35.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="Label36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 171</value>
+  </data>
+  <data name="Label36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label36.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="Label36.Text" xml:space="preserve">
+    <value>Quarter Chicken Dinner </value>
+  </data>
+  <data name="Label36.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label36.Name" xml:space="preserve">
+    <value>Label36</value>
+  </data>
+  <data name="&gt;&gt;Label36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label36.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label36.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="Label37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 208</value>
+  </data>
+  <data name="Label37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label37.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="Label37.Text" xml:space="preserve">
+    <value>BBQ Chicken Only</value>
+  </data>
+  <data name="Label37.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label37.Name" xml:space="preserve">
+    <value>Label37</value>
+  </data>
+  <data name="&gt;&gt;Label37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label37.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label37.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="Label38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 240</value>
+  </data>
+  <data name="Label38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label38.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="Label38.Text" xml:space="preserve">
+    <value>(Chicken Only, No Sides)</value>
+  </data>
+  <data name="Label38.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label38.Name" xml:space="preserve">
+    <value>Label38</value>
+  </data>
+  <data name="&gt;&gt;Label38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label38.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label38.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="Label311.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label311.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 340</value>
+  </data>
+  <data name="Label311.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label311.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label311.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="Label311.Text" xml:space="preserve">
+    <value>Quarter Chicken Only</value>
+  </data>
+  <data name="Label311.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label311.Name" xml:space="preserve">
+    <value>Label311</value>
+  </data>
+  <data name="&gt;&gt;Label311.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label311.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label311.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="Label310.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label310.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 308</value>
+  </data>
+  <data name="Label310.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label310.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label310.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="Label310.Text" xml:space="preserve">
+    <value>Half Chicken Only (All White)</value>
+  </data>
+  <data name="Label310.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label310.Name" xml:space="preserve">
+    <value>Label310</value>
+  </data>
+  <data name="&gt;&gt;Label310.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label310.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label310.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="Label39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 277</value>
+  </data>
+  <data name="Label39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label39.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="Label39.Text" xml:space="preserve">
+    <value>Half Chicken Only</value>
+  </data>
+  <data name="Label39.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label39.Name" xml:space="preserve">
+    <value>Label39</value>
+  </data>
+  <data name="&gt;&gt;Label39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label39.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label39.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="Label312.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label312.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label312.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 385</value>
+  </data>
+  <data name="Label312.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label312.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label312.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="Label312.Text" xml:space="preserve">
+    <value>The Best of Both</value>
+  </data>
+  <data name="Label312.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label312.Name" xml:space="preserve">
+    <value>Label312</value>
+  </data>
+  <data name="&gt;&gt;Label312.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label312.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label312.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="Label313.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label313.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 415</value>
+  </data>
+  <data name="Label313.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label313.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label313.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="Label313.Text" xml:space="preserve">
+    <value>(includes 2 small sides or 1 large side)</value>
+  </data>
+  <data name="Label313.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label313.Name" xml:space="preserve">
+    <value>Label313</value>
+  </data>
+  <data name="&gt;&gt;Label313.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label313.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label313.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="Label314.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label314.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 446</value>
+  </data>
+  <data name="Label314.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label314.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label314.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="Label314.Text" xml:space="preserve">
+    <value>Baby Back Rib &amp;&amp; Chicken Dinner </value>
+  </data>
+  <data name="Label314.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label314.Name" xml:space="preserve">
+    <value>Label314</value>
+  </data>
+  <data name="&gt;&gt;Label314.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label314.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label314.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="Label315.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label315.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 477</value>
+  </data>
+  <data name="Label315.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label315.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label315.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="Label315.Text" xml:space="preserve">
+    <value>4 Bones and 1/4 Chicken BBQ'd</value>
+  </data>
+  <data name="Label315.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label315.Name" xml:space="preserve">
+    <value>Label315</value>
+  </data>
+  <data name="&gt;&gt;Label315.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label315.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label315.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="Label316.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label316.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 513</value>
+  </data>
+  <data name="Label316.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label316.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label316.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="Label316.Text" xml:space="preserve">
+    <value>Baby Back Rib &amp;&amp; Chick-less Dinner</value>
+  </data>
+  <data name="Label316.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label316.Name" xml:space="preserve">
+    <value>Label316</value>
+  </data>
+  <data name="&gt;&gt;Label316.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label316.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label316.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="Label317.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label317.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 542</value>
+  </data>
+  <data name="Label317.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label317.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 50</value>
+  </data>
+  <data name="Label317.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="Label317.Text" xml:space="preserve">
+    <value>4 Bones with chunks of white breast meat chicken seasoned &amp;&amp; BBQ'd</value>
+  </data>
+  <data name="Label317.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label317.Name" xml:space="preserve">
+    <value>Label317</value>
+  </data>
+  <data name="&gt;&gt;Label317.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label317.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label317.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="Label318.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label318.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 602</value>
+  </data>
+  <data name="Label318.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label318.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label318.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="Label318.Text" xml:space="preserve">
+    <value>Beefy Rib &amp; Chick-less Dinner </value>
+  </data>
+  <data name="Label318.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label318.Name" xml:space="preserve">
+    <value>Label318</value>
+  </data>
+  <data name="&gt;&gt;Label318.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label318.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label318.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="Label319.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label319.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 631</value>
+  </data>
+  <data name="Label319.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label319.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label319.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="Label319.Text" xml:space="preserve">
+    <value>2 Bones and 1/4 Chicken BBQ'd</value>
+  </data>
+  <data name="Label319.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label319.Name" xml:space="preserve">
+    <value>Label319</value>
+  </data>
+  <data name="&gt;&gt;Label319.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label319.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label319.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="Label320.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label320.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 665</value>
+  </data>
+  <data name="Label320.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label320.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label320.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="Label320.Text" xml:space="preserve">
+    <value>Beefy Rib &amp; Chick-less Dinner </value>
+  </data>
+  <data name="Label320.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label320.Name" xml:space="preserve">
+    <value>Label320</value>
+  </data>
+  <data name="&gt;&gt;Label320.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label320.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label320.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="Label321.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label321.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 696</value>
+  </data>
+  <data name="Label321.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label321.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 50</value>
+  </data>
+  <data name="Label321.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="Label321.Text" xml:space="preserve">
+    <value>2 Bones with chunks of white breast meat chicken seasoned &amp;&amp; BBQ'd</value>
+  </data>
+  <data name="Label321.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label321.Name" xml:space="preserve">
+    <value>Label321</value>
+  </data>
+  <data name="&gt;&gt;Label321.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label321.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label321.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="Label322.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label322.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label322.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 758</value>
+  </data>
+  <data name="Label322.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label322.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label322.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="Label322.Text" xml:space="preserve">
+    <value>Salad</value>
+  </data>
+  <data name="Label322.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label322.Name" xml:space="preserve">
+    <value>Label322</value>
+  </data>
+  <data name="&gt;&gt;Label322.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label322.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label322.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="Label323.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label323.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 788</value>
+  </data>
+  <data name="Label323.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label323.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label323.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="Label323.Text" xml:space="preserve">
+    <value>Caesar (homemade dressing) </value>
+  </data>
+  <data name="Label323.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label323.Name" xml:space="preserve">
+    <value>Label323</value>
+  </data>
+  <data name="&gt;&gt;Label323.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label323.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label323.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="Label324.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label324.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 817</value>
+  </data>
+  <data name="Label324.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label324.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label324.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="Label324.Text" xml:space="preserve">
+    <value>Spring Mix </value>
+  </data>
+  <data name="Label324.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label324.Name" xml:space="preserve">
+    <value>Label324</value>
+  </data>
+  <data name="&gt;&gt;Label324.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label324.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label324.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="Label325.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label325.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 848</value>
+  </data>
+  <data name="Label325.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label325.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label325.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="Label325.Text" xml:space="preserve">
+    <value>Add Grilled Chicken </value>
+  </data>
+  <data name="Label325.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label325.Name" xml:space="preserve">
+    <value>Label325</value>
+  </data>
+  <data name="&gt;&gt;Label325.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label325.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label325.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="p13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1084, 110</value>
+  </data>
+  <data name="p13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p13.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="p13.Text" xml:space="preserve">
+    <value>10.49</value>
+  </data>
+  <data name="&gt;&gt;p13.Name" xml:space="preserve">
+    <value>p13</value>
+  </data>
+  <data name="&gt;&gt;p13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p13.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="p14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1084, 144</value>
+  </data>
+  <data name="p14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p14.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="p14.Text" xml:space="preserve">
+    <value>11.49</value>
+  </data>
+  <data name="&gt;&gt;p14.Name" xml:space="preserve">
+    <value>p14</value>
+  </data>
+  <data name="&gt;&gt;p14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p14.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="p15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1092, 177</value>
+  </data>
+  <data name="p15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p15.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="p15.Text" xml:space="preserve">
+    <value>8.49</value>
+  </data>
+  <data name="&gt;&gt;p15.Name" xml:space="preserve">
+    <value>p15</value>
+  </data>
+  <data name="&gt;&gt;p15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p15.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="p16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1092, 283</value>
+  </data>
+  <data name="p16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p16.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="p16.Text" xml:space="preserve">
+    <value>8.49</value>
+  </data>
+  <data name="&gt;&gt;p16.Name" xml:space="preserve">
+    <value>p16</value>
+  </data>
+  <data name="&gt;&gt;p16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p16.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="p17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1092, 312</value>
+  </data>
+  <data name="p17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p17.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="p17.Text" xml:space="preserve">
+    <value>9.49</value>
+  </data>
+  <data name="&gt;&gt;p17.Name" xml:space="preserve">
+    <value>p17</value>
+  </data>
+  <data name="&gt;&gt;p17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p17.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="p18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1092, 340</value>
+  </data>
+  <data name="p18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p18.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="p18.Text" xml:space="preserve">
+    <value>6.49</value>
+  </data>
+  <data name="&gt;&gt;p18.Name" xml:space="preserve">
+    <value>p18</value>
+  </data>
+  <data name="&gt;&gt;p18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p18.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="p19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1084, 452</value>
+  </data>
+  <data name="p19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p19.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="p19.Text" xml:space="preserve">
+    <value>14.49</value>
+  </data>
+  <data name="&gt;&gt;p19.Name" xml:space="preserve">
+    <value>p19</value>
+  </data>
+  <data name="&gt;&gt;p19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p19.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="p20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1084, 513</value>
+  </data>
+  <data name="p20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p20.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="p20.Text" xml:space="preserve">
+    <value>14.49</value>
+  </data>
+  <data name="&gt;&gt;p20.Name" xml:space="preserve">
+    <value>p20</value>
+  </data>
+  <data name="&gt;&gt;p20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p20.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="p21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1084, 598</value>
+  </data>
+  <data name="p21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p21.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="p21.Text" xml:space="preserve">
+    <value>17.49</value>
+  </data>
+  <data name="&gt;&gt;p21.Name" xml:space="preserve">
+    <value>p21</value>
+  </data>
+  <data name="&gt;&gt;p21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p21.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="p22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1084, 665</value>
+  </data>
+  <data name="p22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="p22.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="p22.Text" xml:space="preserve">
+    <value>17.49</value>
+  </data>
+  <data name="&gt;&gt;p22.Name" xml:space="preserve">
+    <value>p22</value>
+  </data>
+  <data name="&gt;&gt;p22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p22.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="p23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1070, 790</value>
+  </data>
+  <data name="p23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 25</value>
+  </data>
+  <data name="p23.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="p23.Text" xml:space="preserve">
+    <value>3.99/5.99</value>
+  </data>
+  <data name="&gt;&gt;p23.Name" xml:space="preserve">
+    <value>p23</value>
+  </data>
+  <data name="&gt;&gt;p23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p23.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="p24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1070, 823</value>
+  </data>
+  <data name="p24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 25</value>
+  </data>
+  <data name="p24.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="p24.Text" xml:space="preserve">
+    <value>2.99/4.99</value>
+  </data>
+  <data name="&gt;&gt;p24.Name" xml:space="preserve">
+    <value>p24</value>
+  </data>
+  <data name="&gt;&gt;p24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p24.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="p25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1092, 862</value>
+  </data>
+  <data name="p25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p25.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="p25.Text" xml:space="preserve">
+    <value>3.25</value>
+  </data>
+  <data name="&gt;&gt;p25.Name" xml:space="preserve">
+    <value>p25</value>
+  </data>
+  <data name="&gt;&gt;p25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p25.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="Label41.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 10</value>
+  </data>
+  <data name="Label41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label41.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="Label41.Text" xml:space="preserve">
+    <value>Sandwiches</value>
+  </data>
+  <data name="Label41.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label41.Name" xml:space="preserve">
+    <value>Label41</value>
+  </data>
+  <data name="&gt;&gt;Label41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label41.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label41.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="Label43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 75</value>
+  </data>
+  <data name="Label43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 50</value>
+  </data>
+  <data name="Label43.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="Label43.Text" xml:space="preserve">
+    <value>Seasoned and char-grilled, on a bed of Cole Slaw topped with BBQ sauce</value>
+  </data>
+  <data name="Label43.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label43.Name" xml:space="preserve">
+    <value>Label43</value>
+  </data>
+  <data name="&gt;&gt;Label43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label43.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label43.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="Label42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 44</value>
+  </data>
+  <data name="Label42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label42.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="Label42.Text" xml:space="preserve">
+    <value>BBQ Broham® (Pulled Pork) </value>
+  </data>
+  <data name="Label42.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label42.Name" xml:space="preserve">
+    <value>Label42</value>
+  </data>
+  <data name="&gt;&gt;Label42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label42.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label42.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="Label44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 135</value>
+  </data>
+  <data name="Label44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label44.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="Label44.Text" xml:space="preserve">
+    <value>El Toro </value>
+  </data>
+  <data name="Label44.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label44.Name" xml:space="preserve">
+    <value>Label44</value>
+  </data>
+  <data name="&gt;&gt;Label44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label44.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label44.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="Label45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 160</value>
+  </data>
+  <data name="Label45.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 50</value>
+  </data>
+  <data name="Label45.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="Label45.Text" xml:space="preserve">
+    <value>Char-grilled deli sliced tri-tip topped with BBQ sauce</value>
+  </data>
+  <data name="Label45.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label45.Name" xml:space="preserve">
+    <value>Label45</value>
+  </data>
+  <data name="&gt;&gt;Label45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label45.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label45.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="Label46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 229</value>
+  </data>
+  <data name="Label46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label46.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="Label46.Text" xml:space="preserve">
+    <value>BBQ Cheese Burger  </value>
+  </data>
+  <data name="Label46.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label46.Name" xml:space="preserve">
+    <value>Label46</value>
+  </data>
+  <data name="&gt;&gt;Label46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label46.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label46.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="Label47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 258</value>
+  </data>
+  <data name="Label47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 50</value>
+  </data>
+  <data name="Label47.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="Label47.Text" xml:space="preserve">
+    <value>1/2 lb. Ground chuck patty char-grilled, topped with cheese, an onion ring, and BBQ sauce</value>
+  </data>
+  <data name="Label47.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label47.Name" xml:space="preserve">
+    <value>Label47</value>
+  </data>
+  <data name="&gt;&gt;Label47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label47.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label47.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="Label410.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label410.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 385</value>
+  </data>
+  <data name="Label410.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label410.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label410.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="Label410.Text" xml:space="preserve">
+    <value>BBQ Garden Veggie Burger </value>
+  </data>
+  <data name="Label410.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label410.Name" xml:space="preserve">
+    <value>Label410</value>
+  </data>
+  <data name="&gt;&gt;Label410.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label410.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label410.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="Label49.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 352</value>
+  </data>
+  <data name="Label49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label49.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="Label49.Text" xml:space="preserve">
+    <value>BBQ Chicken Breast </value>
+  </data>
+  <data name="Label49.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label49.Name" xml:space="preserve">
+    <value>Label49</value>
+  </data>
+  <data name="&gt;&gt;Label49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label49.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label49.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="Label48.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 321</value>
+  </data>
+  <data name="Label48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label48.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="Label48.Text" xml:space="preserve">
+    <value>BBQ Turkey Burger </value>
+  </data>
+  <data name="Label48.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label48.Name" xml:space="preserve">
+    <value>Label48</value>
+  </data>
+  <data name="&gt;&gt;Label48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label48.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label48.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="Label411.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label411.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1192, 417</value>
+  </data>
+  <data name="Label411.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label411.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label411.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="Label411.Text" xml:space="preserve">
+    <value>COLOSSAL Onion Rings</value>
+  </data>
+  <data name="Label411.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label411.Name" xml:space="preserve">
+    <value>Label411</value>
+  </data>
+  <data name="&gt;&gt;Label411.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label411.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label411.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Label412.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label412.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 446</value>
+  </data>
+  <data name="Label412.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label412.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 31</value>
+  </data>
+  <data name="Label412.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="Label412.Text" xml:space="preserve">
+    <value>Fresh Batter Dipped  </value>
+  </data>
+  <data name="Label412.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label412.Name" xml:space="preserve">
+    <value>Label412</value>
+  </data>
+  <data name="&gt;&gt;Label412.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label412.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label412.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="p26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1520, 50</value>
+  </data>
+  <data name="p26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p26.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="p26.Text" xml:space="preserve">
+    <value>8.99</value>
+  </data>
+  <data name="&gt;&gt;p26.Name" xml:space="preserve">
+    <value>p26</value>
+  </data>
+  <data name="&gt;&gt;p26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p26.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="p27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1520, 142</value>
+  </data>
+  <data name="p27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p27.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="p27.Text" xml:space="preserve">
+    <value>8.99</value>
+  </data>
+  <data name="&gt;&gt;p27.Name" xml:space="preserve">
+    <value>p27</value>
+  </data>
+  <data name="&gt;&gt;p27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p27.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="p28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1520, 229</value>
+  </data>
+  <data name="p28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p28.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="p28.Text" xml:space="preserve">
+    <value>8.49</value>
+  </data>
+  <data name="&gt;&gt;p28.Name" xml:space="preserve">
+    <value>p28</value>
+  </data>
+  <data name="&gt;&gt;p28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p28.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="p29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1520, 323</value>
+  </data>
+  <data name="p29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p29.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="p29.Text" xml:space="preserve">
+    <value>7.79</value>
+  </data>
+  <data name="&gt;&gt;p29.Name" xml:space="preserve">
+    <value>p29</value>
+  </data>
+  <data name="&gt;&gt;p29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p29.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="p30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1520, 352</value>
+  </data>
+  <data name="p30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p30.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="p30.Text" xml:space="preserve">
+    <value>7.99</value>
+  </data>
+  <data name="&gt;&gt;p30.Name" xml:space="preserve">
+    <value>p30</value>
+  </data>
+  <data name="&gt;&gt;p30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p30.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="p31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1520, 385</value>
+  </data>
+  <data name="p31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p31.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="p31.Text" xml:space="preserve">
+    <value>7.79</value>
+  </data>
+  <data name="&gt;&gt;p31.Name" xml:space="preserve">
+    <value>p31</value>
+  </data>
+  <data name="&gt;&gt;p31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p31.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="p32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1496, 446</value>
+  </data>
+  <data name="p32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 25</value>
+  </data>
+  <data name="p32.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="p32.Text" xml:space="preserve">
+    <value>5.75/8.75</value>
+  </data>
+  <data name="&gt;&gt;p32.Name" xml:space="preserve">
+    <value>p32</value>
+  </data>
+  <data name="&gt;&gt;p32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p32.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p32.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Label413.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label413.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label413.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 479</value>
+  </data>
+  <data name="Label413.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label413.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="Label413.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="Label413.Text" xml:space="preserve">
+    <value>SIDES &amp;&amp; MORE</value>
+  </data>
+  <data name="Label413.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label413.Name" xml:space="preserve">
+    <value>Label413</value>
+  </data>
+  <data name="&gt;&gt;Label413.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label413.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label413.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Label414.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label414.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label414.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 508</value>
+  </data>
+  <data name="Label414.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label414.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label414.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="Label414.Text" xml:space="preserve">
+    <value>Small Serving </value>
+  </data>
+  <data name="Label414.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label414.Name" xml:space="preserve">
+    <value>Label414</value>
+  </data>
+  <data name="&gt;&gt;Label414.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label414.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label414.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Label421.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label421.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label421.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1424, 508</value>
+  </data>
+  <data name="Label421.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label421.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label421.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="Label421.Text" xml:space="preserve">
+    <value>Large Serving </value>
+  </data>
+  <data name="Label421.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label421.Name" xml:space="preserve">
+    <value>Label421</value>
+  </data>
+  <data name="&gt;&gt;Label421.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label421.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label421.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="p33.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1258, 537</value>
+  </data>
+  <data name="p33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p33.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="p33.Text" xml:space="preserve">
+    <value>2.75</value>
+  </data>
+  <data name="&gt;&gt;p33.Name" xml:space="preserve">
+    <value>p33</value>
+  </data>
+  <data name="&gt;&gt;p33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p33.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p33.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="p38.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1472, 537</value>
+  </data>
+  <data name="p38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p38.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="p38.Text" xml:space="preserve">
+    <value>3.75</value>
+  </data>
+  <data name="&gt;&gt;p38.Name" xml:space="preserve">
+    <value>p38</value>
+  </data>
+  <data name="&gt;&gt;p38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p38.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p38.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Label415.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label415.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 563</value>
+  </data>
+  <data name="Label415.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label415.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 150</value>
+  </data>
+  <data name="Label415.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="Label415.Text" xml:space="preserve">
+    <value>Fresh Cut Fries, Sweet Baked Beans, Fresh Cole Slaw, Potato Salad, Macaroni Salad</value>
+  </data>
+  <data name="Label415.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label415.Name" xml:space="preserve">
+    <value>Label415</value>
+  </data>
+  <data name="&gt;&gt;Label415.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label415.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label415.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Label422.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label422.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1424, 558</value>
+  </data>
+  <data name="Label422.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label422.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 162</value>
+  </data>
+  <data name="Label422.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="Label422.Text" xml:space="preserve">
+    <value>Baked Potato, Corn-on-the-Cob, Steamed Veggies, Fresh Cut Fries, Sweet Baked Beans, Fresh Cole Slaw, Potato Salad, Macaroni Salad</value>
+  </data>
+  <data name="Label422.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label422.Name" xml:space="preserve">
+    <value>Label422</value>
+  </data>
+  <data name="&gt;&gt;Label422.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label422.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label422.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Label416.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label416.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label416.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 723</value>
+  </data>
+  <data name="Label416.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label416.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label416.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="Label416.Text" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="Label416.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label416.Name" xml:space="preserve">
+    <value>Label416</value>
+  </data>
+  <data name="&gt;&gt;Label416.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label416.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label416.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Label420.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label420.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 854</value>
+  </data>
+  <data name="Label420.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label420.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label420.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="Label420.Text" xml:space="preserve">
+    <value>Pie</value>
+  </data>
+  <data name="Label420.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label420.Name" xml:space="preserve">
+    <value>Label420</value>
+  </data>
+  <data name="&gt;&gt;Label420.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label420.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label420.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Label419.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label419.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 819</value>
+  </data>
+  <data name="Label419.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label419.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label419.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="Label419.Text" xml:space="preserve">
+    <value>Ranch</value>
+  </data>
+  <data name="Label419.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label419.Name" xml:space="preserve">
+    <value>Label419</value>
+  </data>
+  <data name="&gt;&gt;Label419.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label419.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label419.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Label418.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label418.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 788</value>
+  </data>
+  <data name="Label418.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label418.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label418.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="Label418.Text" xml:space="preserve">
+    <value>Cheese</value>
+  </data>
+  <data name="Label418.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label418.Name" xml:space="preserve">
+    <value>Label418</value>
+  </data>
+  <data name="&gt;&gt;Label418.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label418.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label418.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Label417.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label417.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 758</value>
+  </data>
+  <data name="Label417.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label417.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label417.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="Label417.Text" xml:space="preserve">
+    <value>BBQ Sauce</value>
+  </data>
+  <data name="Label417.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label417.Name" xml:space="preserve">
+    <value>Label417</value>
+  </data>
+  <data name="&gt;&gt;Label417.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label417.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label417.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Label423.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label423.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label423.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1434, 723</value>
+  </data>
+  <data name="Label423.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label423.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label423.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="Label423.Text" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="Label423.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label423.Name" xml:space="preserve">
+    <value>Label423</value>
+  </data>
+  <data name="&gt;&gt;Label423.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label423.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label423.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Label424.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label424.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1430, 762</value>
+  </data>
+  <data name="Label424.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label424.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label424.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="Label424.Text" xml:space="preserve">
+    <value>Coca Cola </value>
+  </data>
+  <data name="Label424.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label424.Name" xml:space="preserve">
+    <value>Label424</value>
+  </data>
+  <data name="&gt;&gt;Label424.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label424.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label424.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label426.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label426.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1430, 821</value>
+  </data>
+  <data name="Label426.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label426.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="Label426.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="Label426.Text" xml:space="preserve">
+    <value>(free Refill) </value>
+  </data>
+  <data name="Label426.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label426.Name" xml:space="preserve">
+    <value>Label426</value>
+  </data>
+  <data name="&gt;&gt;Label426.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label426.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label426.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label425.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label425.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1430, 792</value>
+  </data>
+  <data name="Label425.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label425.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="Label425.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="Label425.Text" xml:space="preserve">
+    <value>Fountain Drinks </value>
+  </data>
+  <data name="Label425.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label425.Name" xml:space="preserve">
+    <value>Label425</value>
+  </data>
+  <data name="&gt;&gt;Label425.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label425.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label425.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="p39.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1566, 762</value>
+  </data>
+  <data name="p39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p39.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="p39.Text" xml:space="preserve">
+    <value>1.99</value>
+  </data>
+  <data name="&gt;&gt;p39.Name" xml:space="preserve">
+    <value>p39</value>
+  </data>
+  <data name="&gt;&gt;p39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p39.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p39.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="p34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1344, 762</value>
+  </data>
+  <data name="p34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p34.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="p34.Text" xml:space="preserve">
+    <value>5.93</value>
+  </data>
+  <data name="&gt;&gt;p34.Name" xml:space="preserve">
+    <value>p34</value>
+  </data>
+  <data name="&gt;&gt;p34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p34.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p34.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="p35.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1344, 792</value>
+  </data>
+  <data name="p35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 25</value>
+  </data>
+  <data name="p35.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="p35.Text" xml:space="preserve">
+    <value>.25</value>
+  </data>
+  <data name="&gt;&gt;p35.Name" xml:space="preserve">
+    <value>p35</value>
+  </data>
+  <data name="&gt;&gt;p35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p35.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p35.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="p36.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1344, 821</value>
+  </data>
+  <data name="p36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 25</value>
+  </data>
+  <data name="p36.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="p36.Text" xml:space="preserve">
+    <value>.50</value>
+  </data>
+  <data name="&gt;&gt;p36.Name" xml:space="preserve">
+    <value>p36</value>
+  </data>
+  <data name="&gt;&gt;p36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p36.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p36.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="p37.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1344, 854</value>
+  </data>
+  <data name="p37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="p37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="p37.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="p37.Text" xml:space="preserve">
+    <value>3.00</value>
+  </data>
+  <data name="&gt;&gt;p37.Name" xml:space="preserve">
+    <value>p37</value>
+  </data>
+  <data name="&gt;&gt;p37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p37.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p37.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="saFlag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 885</value>
+  </data>
+  <data name="saFlag.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="saFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 48</value>
+  </data>
+  <data name="saFlag.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="saFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;saFlag.Name" xml:space="preserve">
+    <value>saFlag</value>
+  </data>
+  <data name="&gt;&gt;saFlag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saFlag.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;saFlag.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mxFlag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        q7ubMcFi8srPq7qp/fu/qt9b317frsLlr7j3wNLKysrl1dXDy3q/xzRwCe2RzH3rnoaxTTEM6fY0J2Ay
+        vxK5dGnlMjR1vn7v3r3t7fWCsNleXz8KP7m8QjfqHY2v29XQYAk80JPRTZEWl6m74e7TKDgFl6Cp+nbN
+        VT2Mru+gKPCztjBqXYyrwURauvWL+zG2KTrMkSZ3wlt537PRB4PqywOV6Qd/9tZ/8yWMqW9h8QCjT3vK
+        YCEtO3bP72JsU8BuD5iy3VnQBQurZWZ4/+rqdzCd1+/VggoKO/AdnHsrV6ApmNI9VgtpyrY8sESAGNwU
+        09LCkTCrX4UZe3hZq0N/+ubrLw7s1YPqwF+/WbpUGQfALLBa3Q0t2muzD8bgpgDtA5zPPmG/vZcJq6fL
+        X371twqr2tMFXyLBwTiaSzgcvl2SuY7RTWkcXO55/yMH0+zxVrasLsHSQEcLKE+zlbR6HA5uWfvqIdSA
+        Kfrq0wxINJsS3R5Ts0NzxYDvwZHKl55ui6mhwap1xNVX13ejFmIKQrZYXdYGd0MW1gwWi6flSfDPBMfZ
+        7RNu6MlEkloah8vfw6gNUzRjB1xLmDRZXFbO5+PCmqkAzVha3FlYQpmsrm2vIDyQGokpbb/KwVhJe4uP
+        Jjn6++/Bng8YMgASLS5T1u0K7Hi68CBqxhSEJAGMHYc38uQP4B9H9hwBCQb4yBbu0fGkUUumbvNU5Nie
+        wg/gzT3aC3vI1KCpHz4B0NHfn/xBf7URmVqMKQC0HbzIJ5VzVGrT1P8DNoUKNoUKNoUKNoUKNoUKNoUK
+        NoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUK
+        NoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUKNoUK
+        NoUKNoUKNoUKNoXKYzf1xBP/Bf82a77b1oHNAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="mxFlag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mxFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 885</value>
+  </data>
+  <data name="mxFlag.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="mxFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 48</value>
+  </data>
+  <data name="mxFlag.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="mxFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;mxFlag.Name" xml:space="preserve">
+    <value>mxFlag</value>
+  </data>
+  <data name="&gt;&gt;mxFlag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mxFlag.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mxFlag.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="usFlag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="usFlag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="usFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 885</value>
+  </data>
+  <data name="usFlag.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="usFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 48</value>
+  </data>
+  <data name="usFlag.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="usFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;usFlag.Name" xml:space="preserve">
+    <value>usFlag</value>
+  </data>
+  <data name="&gt;&gt;usFlag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;usFlag.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;usFlag.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="logo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="logo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="logo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 148</value>
+  </data>
+  <data name="logo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="logo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;logo.Name" xml:space="preserve">
+    <value>logo</value>
+  </data>
+  <data name="&gt;&gt;logo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;logo.ZOrder" xml:space="preserve">
+    <value>132</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1644, 956</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

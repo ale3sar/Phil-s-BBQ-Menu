@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label11" xml:space="preserve">
+    <value>سان دييقو</value>
+  </data>
+  <data name="Label12" xml:space="preserve">
+    <value>أضلاع مشوية دجاج ولحم بقر وشطائر</value>
+  </data>
+  <data name="Label13" xml:space="preserve">
+    <value>3750 شارع سبورت ارينا </value>
+  </data>
+  <data name="Label14" xml:space="preserve">
+    <value>الوقت: الأحد إلى الخميس 11ص-10م </value>
+  </data>
+  <data name="Label15" xml:space="preserve">
+    <value>الجمعة والسبت إلى 11م </value>
+  </data>
+  <data name="Label16" xml:space="preserve">
+    <value>هاتف: (619) 226-6333 </value>
+  </data>
+  <data name="Label17" xml:space="preserve">
+    <value>www.philsbbq.net</value>
+  </data>
+  <data name="Label18" xml:space="preserve">
+    <value>مغلق الإثنين </value>
+  </data>
+  <data name="Label19" xml:space="preserve">
+    <value>الاحتفالات</value>
+  </data>
+  <data name="Label110" xml:space="preserve">
+    <value>للاستفسار عن خدمات الاحتفالات شاملاً التوصيل والأحداث في الموقع </value>
+  </data>
+  <data name="Label111" xml:space="preserve">
+    <value>رجاءً اتصل: 619-814-0050 </value>
+  </data>
+  <data name="Label112" xml:space="preserve">
+    <value>يرجى تجديد لحم الخنزير </value>
+  </data>
+  <data name="Label113" xml:space="preserve">
+    <value>أو</value>
+  </data>
+  <data name="Label114" xml:space="preserve">
+    <value>لحم البقر عند طلب الأضلاع </value>
+  </data>
+  <data name="Label21" xml:space="preserve">
+    <value>الأضلاع الفائزة بجوائز</value>
+  </data>
+  <data name="Label22" xml:space="preserve">
+    <value>عشاء أضلاع الخنزير</value>
+  </data>
+  <data name="Label23" xml:space="preserve">
+    <value>(يتضمن طبق كبير أو 2 طبق صغير جانبي)</value>
+  </data>
+  <data name="Label24" xml:space="preserve">
+    <value>عشاء أضلاع كامل (10 إلى 12 ضلع) </value>
+  </data>
+  <data name="Label25" xml:space="preserve">
+    <value>نصف عشاء أضلاع (6 إلى 10 أضلاع) </value>
+  </data>
+  <data name="Label26" xml:space="preserve">
+    <value>ربع عشاء أضلاع (4 أضلاع) </value>
+  </data>
+  <data name="Label27" xml:space="preserve">
+    <value>طلب أضلاع الخنزير </value>
+  </data>
+  <data name="Label28" xml:space="preserve">
+    <value>(أضلاع فقط، لا أطباق جانبية)</value>
+  </data>
+  <data name="Label29" xml:space="preserve">
+    <value>طلب أضلاع كامل (10 إلى 12 ضلع) </value>
+  </data>
+  <data name="Label210" xml:space="preserve">
+    <value>نصف طلب أضلاع (6 إلى 10 أضلاع) </value>
+  </data>
+  <data name="Label211" xml:space="preserve">
+    <value>عشاء أضلاع بقرية</value>
+  </data>
+  <data name="Label212" xml:space="preserve">
+    <value>(يتضمن طبق كبير أو 2 طبق صغير جانبي)</value>
+  </data>
+  <data name="Label213" xml:space="preserve">
+    <value>عشاء أضلاع بقرية كامل (5 أضلاع) </value>
+  </data>
+  <data name="Label214" xml:space="preserve">
+    <value>عشاء أضلاع بقرية (3 أضلاع) </value>
+  </data>
+  <data name="Label215" xml:space="preserve">
+    <value>طلب أضلاع بقرية </value>
+  </data>
+  <data name="Label216" xml:space="preserve">
+    <value>((أضلاع فقط، لا أطباق جانبية</value>
+  </data>
+  <data name="Label217" xml:space="preserve">
+    <value>طلب أضلاع بقرية كامل (5 أضلاع) </value>
+  </data>
+  <data name="Label218" xml:space="preserve">
+    <value>ضلع بقري واحد </value>
+  </data>
+  <data name="Label219" xml:space="preserve">
+    <value>خفايف® فيلز </value>
+  </data>
+  <data name="Label220" xml:space="preserve">
+    <value>خفايف® تتضمن حلقتي بصل، سلطة كرنب وبطاطس مقلية </value>
+  </data>
+  <data name="Label221" xml:space="preserve">
+    <value>-برجاء عدم طلب التغيير-</value>
+  </data>
+  <data name="Label222" xml:space="preserve">
+    <value>خفايف® أضلاع الخنزير (3 أضلاع)</value>
+  </data>
+  <data name="Label223" xml:space="preserve">
+    <value>خفايف ضلع البقر (ضلع واحد) </value>
+  </data>
+  <data name="Label224" xml:space="preserve">
+    <value>خفايف® الدجاج </value>
+  </data>
+  <data name="Label225" xml:space="preserve">
+    <value>قطع من لحم صدر الدجاج منزوعة العظم المبهرة والمشوية </value>
+  </data>
+  <data name="Label31" xml:space="preserve">
+    <value>الدجاج المشوي</value>
+  </data>
+  <data name="Label32" xml:space="preserve">
+    <value>عشاء الدجاج المشوي</value>
+  </data>
+  <data name="Label33" xml:space="preserve">
+    <value>(يتضمن طبق كبير أو 2 طبق صغير جانبي)</value>
+  </data>
+  <data name="Label34" xml:space="preserve">
+    <value>عشاء نصف دجاجة</value>
+  </data>
+  <data name="Label35" xml:space="preserve">
+    <value>عشاء نصف دجاجة (لحم الصدر)</value>
+  </data>
+  <data name="Label36" xml:space="preserve">
+    <value>عشاء ربع دجاجة</value>
+  </data>
+  <data name="Label37" xml:space="preserve">
+    <value>طلب الدجاج المشوي</value>
+  </data>
+  <data name="Label38" xml:space="preserve">
+    <value>دجاج فقط، لا أطباق جانبية</value>
+  </data>
+  <data name="Label39" xml:space="preserve">
+    <value>نصف دجاجة فقط </value>
+  </data>
+  <data name="Label310" xml:space="preserve">
+    <value>نصف دجاجة فقط (لحم الصدر) </value>
+  </data>
+  <data name="Label311" xml:space="preserve">
+    <value>ربع دجاجة فقط </value>
+  </data>
+  <data name="Label312" xml:space="preserve">
+    <value>الجمع بين الاثنين (الأضلاع والدجاج)</value>
+  </data>
+  <data name="Label313" xml:space="preserve">
+    <value>(يتضمن طبق كبير أو 2 طبق صغير جانبي)</value>
+  </data>
+  <data name="Label314" xml:space="preserve">
+    <value>عشاء أضلاع الخنزير &amp; الدجاج </value>
+  </data>
+  <data name="Label315" xml:space="preserve">
+    <value>4 أضلاع وربع دجاجة مشوية </value>
+  </data>
+  <data name="Label316" xml:space="preserve">
+    <value>عشاء أضلاع الخنزير &amp; صدر الدجاج </value>
+  </data>
+  <data name="Label317" xml:space="preserve">
+    <value>4 أضلاع مع قطع من لحم صدر الدجاج مبهرة ومشوية</value>
+  </data>
+  <data name="Label318" xml:space="preserve">
+    <value>عشاء أضلاع بقرية &amp; الدجاج </value>
+  </data>
+  <data name="Label319" xml:space="preserve">
+    <value>عشاء أضلاع بقرية &amp; الدجاج </value>
+  </data>
+  <data name="Label320" xml:space="preserve">
+    <value>عشاء أضلاع بقرية &amp; صدر الدجاج </value>
+  </data>
+  <data name="Label321" xml:space="preserve">
+    <value>ضلعين مع قطع من لحم صدر الدجاج مبهرة ومشوية </value>
+  </data>
+  <data name="Label322" xml:space="preserve">
+    <value>السلطات </value>
+  </data>
+  <data name="Label323" xml:space="preserve">
+    <value>سلطة سيزر (تتبيله خاصة) </value>
+  </data>
+  <data name="Label324" xml:space="preserve">
+    <value>سلطة خضراء </value>
+  </data>
+  <data name="Label325" xml:space="preserve">
+    <value>إضافة الدجاج المشوي </value>
+  </data>
+  <data name="Label41" xml:space="preserve">
+    <value>الشطائر </value>
+  </data>
+  <data name="Label42" xml:space="preserve">
+    <value>بروهام® المشوي </value>
+  </data>
+  <data name="Label43" xml:space="preserve">
+    <value>مبهر ومشوي على الفحم فوق سلطة الكرنب ومغطى بصلصة الشوي</value>
+  </data>
+  <data name="Label44" xml:space="preserve">
+    <value>إل تورو </value>
+  </data>
+  <data name="Label45" xml:space="preserve">
+    <value>شرائح اللحم المشوي على الفحم مغطاة بصلصة الباربكيو </value>
+  </data>
+  <data name="Label46" xml:space="preserve">
+    <value>برجر مشوي بالجبن </value>
+  </data>
+  <data name="Label47" xml:space="preserve">
+    <value>نصف باوند من اللحم المفروم بالجبن وحلقة بصل وصلصلة الباربيكيو</value>
+  </data>
+  <data name="Label48" xml:space="preserve">
+    <value>برجر اللحم الرومي المشوي </value>
+  </data>
+  <data name="Label49" xml:space="preserve">
+    <value>دجاج الصدر المشوي </value>
+  </data>
+  <data name="Label410" xml:space="preserve">
+    <value>البرحر النباتي المشوي </value>
+  </data>
+  <data name="Label411" xml:space="preserve">
+    <value>حلقات البصل الضخمة</value>
+  </data>
+  <data name="Label412" xml:space="preserve">
+    <value>مغمسة في الخليط الطازج </value>
+  </data>
+  <data name="Label413" xml:space="preserve">
+    <value>الأطباق الجانبية &amp; المزيد </value>
+  </data>
+  <data name="Label414" xml:space="preserve">
+    <value>الأطباق الصغيرة</value>
+  </data>
+  <data name="Label415" xml:space="preserve">
+    <value>بطاطس مقلية، فاصوليا مطبوخة حلوه، سلطة الكرنب، سلطة البطاطس، سلطة المعكرونة</value>
+  </data>
+  <data name="Label416" xml:space="preserve">
+    <value>الإضافات</value>
+  </data>
+  <data name="Label417" xml:space="preserve">
+    <value>صلصة الباربيكيو</value>
+  </data>
+  <data name="Label418" xml:space="preserve">
+    <value>جبن</value>
+  </data>
+  <data name="Label419" xml:space="preserve">
+    <value>رانش</value>
+  </data>
+  <data name="Label420" xml:space="preserve">
+    <value>فطيرة</value>
+  </data>
+  <data name="Label421" xml:space="preserve">
+    <value>الأطباق الكبيرة</value>
+  </data>
+  <data name="Label422" xml:space="preserve">
+    <value>بطاطس مشوية، كوب الذرة، خضار مطبوخة بالبخار، بطاطس مقلية، فاصوليا مطبوخة حلوة، سلطة الكرنب، سلطة البطاطس، سلطة المعكرونة</value>
+  </data>
+  <data name="Label423" xml:space="preserve">
+    <value>المشروبات</value>
+  </data>
+  <data name="Label424" xml:space="preserve">
+    <value>كوكا كولا</value>
+  </data>
+  <data name="Label425" xml:space="preserve">
+    <value>مشروبات غازية</value>
+  </data>
+  <data name="Label426" xml:space="preserve">
+    <value>(إعادة تعبئة مجانية)</value>
+  </data>
+  <data name="p1" xml:space="preserve">
+    <value>$20.99</value>
+  </data>
+  <data name="p2" xml:space="preserve">
+    <value>$14.99</value>
+  </data>
+  <data name="p3" xml:space="preserve">
+    <value>$10.99</value>
+  </data>
+  <data name="p4" xml:space="preserve">
+    <value>$18.99</value>
+  </data>
+  <data name="p5" xml:space="preserve">
+    <value>$12.99</value>
+  </data>
+  <data name="p6" xml:space="preserve">
+    <value>$25.99</value>
+  </data>
+  <data name="p7" xml:space="preserve">
+    <value>$18.99</value>
+  </data>
+  <data name="p8" xml:space="preserve">
+    <value>$23.99</value>
+  </data>
+  <data name="p9" xml:space="preserve">
+    <value>$6.55         </value>
+  </data>
+  <data name="p10" xml:space="preserve">
+    <value>$8.49</value>
+  </data>
+  <data name="p11" xml:space="preserve">
+    <value>$9.49</value>
+  </data>
+  <data name="p12" xml:space="preserve">
+    <value>$7.49</value>
+  </data>
+  <data name="p13" xml:space="preserve">
+    <value>$10.49</value>
+  </data>
+  <data name="p14" xml:space="preserve">
+    <value>$11.49</value>
+  </data>
+  <data name="p15" xml:space="preserve">
+    <value>$8.49</value>
+  </data>
+  <data name="p16" xml:space="preserve">
+    <value>$8.49</value>
+  </data>
+  <data name="p17" xml:space="preserve">
+    <value>$9.49</value>
+  </data>
+  <data name="p18" xml:space="preserve">
+    <value>$6.49</value>
+  </data>
+  <data name="p19" xml:space="preserve">
+    <value>$14.49</value>
+  </data>
+  <data name="p20" xml:space="preserve">
+    <value>$14.49</value>
+  </data>
+  <data name="p21" xml:space="preserve">
+    <value>$17.99</value>
+  </data>
+  <data name="p22" xml:space="preserve">
+    <value>$17.99</value>
+  </data>
+  <data name="p23" xml:space="preserve">
+    <value>$3.99/5.99</value>
+  </data>
+  <data name="p24" xml:space="preserve">
+    <value>$2.99/4.99</value>
+  </data>
+  <data name="p25" xml:space="preserve">
+    <value>$3.25</value>
+  </data>
+  <data name="p26" xml:space="preserve">
+    <value>$8.99</value>
+  </data>
+  <data name="p27" xml:space="preserve">
+    <value>$8.99</value>
+  </data>
+  <data name="p28" xml:space="preserve">
+    <value>$8.49</value>
+  </data>
+  <data name="p29" xml:space="preserve">
+    <value>$7.79</value>
+  </data>
+  <data name="p30" xml:space="preserve">
+    <value>$7.99</value>
+  </data>
+  <data name="p31" xml:space="preserve">
+    <value>$7.79</value>
+  </data>
+  <data name="p32" xml:space="preserve">
+    <value>$5.75/ $8.75</value>
+  </data>
+  <data name="p33" xml:space="preserve">
+    <value>($2.75)</value>
+  </data>
+  <data name="p34" xml:space="preserve">
+    <value>5.93</value>
+  </data>
+  <data name="p35" xml:space="preserve">
+    <value>.25</value>
+  </data>
+  <data name="p36" xml:space="preserve">
+    <value>.50</value>
+  </data>
+  <data name="p37" xml:space="preserve">
+    <value>3.00</value>
+  </data>
+  <data name="p38" xml:space="preserve">
+    <value>($3.75)</value>
+  </data>
+  <data name="p39" xml:space="preserve">
+    <value>1.99</value>
+  </data>
+</root>
